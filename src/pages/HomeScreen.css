@@ -1,0 +1,29 @@
+.home-container {
+  padding: 10px;
+}
+
+.movies-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  /* margin: 50px; */
+  padding: 0 80px 50px 80px;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.search-bar:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

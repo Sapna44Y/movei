@@ -1,0 +1,24 @@
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #004e92;
+  color: white;
+  padding: 10px 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.bottom-nav a {
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.bottom-nav a:hover,
+.bottom-nav a.active {
+  color: #ffcc00;
+}

@@ -1,0 +1,33 @@
+.splash-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #000428, #004e92);
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.splash-image {
+  width: 680px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border: 5px solid white;
+}
+
+h1 {
+  font-size: 2rem;
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
